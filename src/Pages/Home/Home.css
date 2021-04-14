@@ -1,0 +1,36 @@
+#homePage header#header-section {
+  background: #ff98b7;
+  padding: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 40px;
+}
+
+#homePage header#header-section .alice-carousel {
+  width: 1140px;
+  height: 600px;
+  overflow: hidden !important;
+  bottom: -30px;
+  border-radius: 20px;
+}
+
+#homePage header#header-section .alice-carousel .slider-item {
+  border-radius: 20px;
+  overflow: hidden !important;
+}
+
+.services-container {
+  border-radius: 50px;
+  background: white;
+}
+
+#service {
+  padding-top: 120px;
+  background: url(../../images/cuveBackground.png) top left no-repeat;
+  background-size: cover;
+}
+
+#pricing-card-section .alice-carousel .alice-carousel__stage .alice-carousel__stage-item .pricing-card-item {
+  width: 100 / 3;
+  padding: 20px;
+}
+/*# sourceMappingURL=Home.css.map */
