@@ -8,6 +8,10 @@ import styled from 'styled-components';
 const ServicesBoxDiv = styled.div`
 padding:20px;
 text-align:center;
+&:hover{
+    background:pink;
+    cursor:pointer;
+}
     img{
         background:${props => props.imageBg || "white"};
         height:${props => props.height || "100px"};

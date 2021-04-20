@@ -9,16 +9,29 @@ const SitebarItems = () => {
             </div>
             <ul className="list-group">
                 <li>
-                    <Link to="/admin/addservice" className="list-group-item  bg-transparent mb-3">Add Service</Link>
+                    <Link to="/admin/addservice" className="list-group-item  bg-transparent mb-3">
+                        <i class="fas fa-plus-circle p-2 rounded-circle text-danger me-2 bg-light"></i> Add Service
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/admin/manage-order" className="list-group-item  bg-transparent mb-3">Manage</Link>
+                    <Link to="/admin/manage-order" className="list-group-item  bg-transparent mb-3">
+                        <i class="fas fa-tools p-2 rounded-circle text-danger me-2 bg-light"></i> Manage Service
+                    </Link>
                 </li>
                 <li>
-                    <Link to="admin/add-admin" className="list-group-item  bg-transparent mb-3">Add Admin</Link>
+                    <Link to="/admin/add-admin" className="list-group-item  bg-transparent mb-3">
+                        <i class="fas fa-user-plus p-2 rounded-circle text-danger me-2 bg-light"></i> Add Admin
+                    </Link>
                 </li>
                 <li>
-                    <Link to="admin/order-list" className="list-group-item  bg-transparent mb-3">Order List</Link>
+                    <Link to="/admin/order-list" className="list-group-item  bg-transparent mb-3">
+                        <i class="fas fa-stream p-2 rounded-circle text-danger me-2 bg-light"></i> Order List
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/" className="list-group-item  bg-transparent mb-3">
+                        <i class="fas fa-share p-2 rounded-circle text-danger me-2 bg-light"></i> Go to Home
+                    </Link>
                 </li>
             </ul>
         </div>

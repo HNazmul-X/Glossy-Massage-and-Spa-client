@@ -4,6 +4,7 @@ import { useContext } from 'react';
 import { useForm } from 'react-hook-form';
 import { useParams } from 'react-router';
 import { UserContext } from '../../Components/Contextapi/CustomContext';
+import Footer from '../../Components/Footer/Footer';
 import MyNavbar from '../../Components/MyNavbar/MyNavbar';
 import StripeCardForm from '../StripeForm/StripeCardForm';
 import StripeForm from '../StripeForm/StripeForm';
@@ -103,6 +104,9 @@ const BuyService = () => {
                     </div>
                 </div>
             </main>
+            <div className="p-5"></div>
+            <div className="p-5"></div>
+            <Footer/>
         </div>
     );
 };

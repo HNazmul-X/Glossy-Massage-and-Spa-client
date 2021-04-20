@@ -16,13 +16,13 @@ function App() {
                   <Route exact path="/">
                       <Home />
                   </Route>
-                  <Route exact path="/admin">
+                  <PrivateRoute exact path="/admin">
                       <AdminLayout />
-                  </Route>
+                  </PrivateRoute>
 
-                  <Route exact path="/admin/:panelId">
+                  <PrivateRoute exact path="/admin/:panelId">
                       <AdminLayout />
-                  </Route>
+                  </PrivateRoute>
                   <Route exact path="/login">
                       <Login/>
                   </Route>

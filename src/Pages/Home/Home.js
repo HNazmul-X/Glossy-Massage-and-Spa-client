@@ -8,6 +8,7 @@ import ShopCardSlider from "./ShopCardSlider";
 import TestomonialSlider from "./TestomonialSlider";
 import men_img from "../../images/guybentley.png"
 import MyNavbar from "../../Components/MyNavbar/MyNavbar";
+import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
     return (
@@ -62,7 +63,12 @@ const Home = () => {
                     <TestomonialSlider />
                 </div>
             </div>
+
+            <Footer/>
         </div>
+
+
+
     );
 };
 
