@@ -19,7 +19,7 @@ const ManageService = () => {
 
     const deleteService = (id)=> {
 
-        fetch(`http://localhost:5000/delete-service/${id}`, {
+        fetch(`https://glossy-massage-spa-assingment.herokuapp.com/delete-service/${id}`, {
             method: "DELETE",
             headers: {
                 "content-type": "application/json",

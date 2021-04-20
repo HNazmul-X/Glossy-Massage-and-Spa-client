@@ -6,7 +6,7 @@ const ManageOrder = () => {
     const [orders, setOrders] = useState([]);
 
     const loadOrdersData = () => {
-        fetch("http://localhost:5000/orders")
+        fetch("https://glossy-massage-spa-assingment.herokuapp.com/orders")
             .then((res) => res.json())
             .then((data) => setOrders(data));
     };
@@ -18,7 +18,7 @@ const ManageOrder = () => {
 
      const deleteOrder = (id) => {
          console.log(id)
-         fetch(`http://localhost:5000/delete-order/${id}`, {
+         fetch(`https://glossy-massage-spa-assingment.herokuapp.com/delete-order/${id}`, {
              method: "DELETE",
              headers: {
                  "content-type": "application/json",
