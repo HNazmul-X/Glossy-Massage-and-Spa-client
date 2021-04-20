@@ -1,0 +1,34 @@
+#admin {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px 1fr;
+      grid-template-columns: 300px 1fr;
+}
+
+#admin aside.sitebar {
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: auto;
+  background: #4b0016;
+}
+
+#admin main.main-content {
+  background: #ddd6d7;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+#sitebarItems ul.list-group li a.list-group-item {
+  color: #ffa3a3;
+  font-weight: 700;
+}
+
+#sitebarItems ul.list-group li a.list-group-item:hover {
+  background: rgba(0, 0, 0, 0.685) !important;
+}
+
+#sitebarItems ul.list-group li:focus {
+  background: rgba(0, 0, 0, 0.685) !important;
+}
+/*# sourceMappingURL=AdminLayout.css.map */

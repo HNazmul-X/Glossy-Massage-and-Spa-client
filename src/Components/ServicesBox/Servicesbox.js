@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from 'react-router';
 import styled from 'styled-components';
 
 
@@ -23,10 +24,11 @@ text-align:center;
 `
 
 
-const Servicesbox = ({image, text, imageBg, imgWidth, imgHeight, className}) => {
+const Servicesbox = ({id,image, text, imageBg, imgWidth, imgHeight, className}) => {
+    const history = useHistory()
 
     return (
-        <ServicesBoxDiv className={className} imageBg={imageBg} imgHeight={imgHeight} imgWidth={imgWidth}>
+        <ServicesBoxDiv onClick={()=> history.push("/buy-service/"+id)} id={id} className={className} imageBg={imageBg} imgHeight={imgHeight} imgWidth={imgWidth}>
             <img className="theme-shodow-sm" src={image} alt="" />
             <h6>{text}</h6>
         </ServicesBoxDiv>

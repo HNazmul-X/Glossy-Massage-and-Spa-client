@@ -2,6 +2,19 @@
     color: #e35d86;
 }
 .theme-shodow-sm {
-    box-shadow: 20px 15px 50px -15px #e35d86,
-     -20px -15px 50px -15px #e35d86;
+    box-shadow: 20px 15px 50px -15px #ffbed2,
+     -20px -15px 50px -15px #ffcbda;
+}
+.btn-brand{
+    background:#e35d86;
+    color:white;
+    border:none;
+    padding:10px 25px;
+}
+.btn-rounded{
+    border-radius: 200px;;
+}
+.disabled{
+    cursor: no-drop !important;
+    pointer-events: all !important;
 }

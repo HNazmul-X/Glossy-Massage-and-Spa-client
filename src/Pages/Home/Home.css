@@ -7,15 +7,54 @@
 
 #homePage header#header-section .alice-carousel {
   width: 1140px;
-  height: 600px;
   overflow: hidden !important;
   bottom: -30px;
   border-radius: 20px;
+  -webkit-box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.685);
+          box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.685);
+}
+
+#homePage header#header-section .alice-carousel .alice-carousel__prev-btn-item, #homePage header#header-section .alice-carousel .alice-carousel__next-btn-item {
+  font-size: 20px;
+  padding: 10px;
+  background: white;
+  color: #000000;
+  border: 1px solid #ff98b7;
+  position: absolute;
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.479);
+          box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.479);
+}
+
+#homePage header#header-section .alice-carousel .alice-carousel__next-btn-item > span::after {
+  content: "\f054";
+  font-weight: bolder;
+  font-family: "font awesome 5 free";
+}
+
+#homePage header#header-section .alice-carousel .alice-carousel__prev-btn-item {
+  left: 20px;
+}
+
+#homePage header#header-section .alice-carousel .alice-carousel__prev-btn-item > span::after {
+  content: "\f053";
+  font-weight: bolder;
+  font-family: "font awesome 5 free";
+}
+
+#homePage header#header-section .alice-carousel > span::after {
+  content: "\f053";
+  font-weight: bolder;
+  font-family: "font awesome 5 free";
 }
 
 #homePage header#header-section .alice-carousel .slider-item {
   border-radius: 20px;
   overflow: hidden !important;
+}
+
+.serviceBox-cover-shadow {
+  -webkit-box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.253);
+          box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.253);
 }
 
 .services-container {
@@ -29,8 +68,121 @@
   background-size: cover;
 }
 
+#pricing-card-section {
+  padding: 40px;
+}
+
 #pricing-card-section .alice-carousel .alice-carousel__stage .alice-carousel__stage-item .pricing-card-item {
-  width: 100 / 3;
   padding: 20px;
+  padding-top: 70px;
+}
+
+#pricing-card-section .alice-carousel .alice-carousel__prev-btn-item, #pricing-card-section .alice-carousel .alice-carousel__next-btn-item {
+  font-size: 20px;
+  padding: 10px;
+  background: white;
+  color: #000000;
+  border: 1px solid #ff98b7;
+  position: absolute;
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.479);
+          box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.479);
+}
+
+#pricing-card-section .alice-carousel .alice-carousel__next-btn-item {
+  right: -25px;
+}
+
+#pricing-card-section .alice-carousel .alice-carousel__next-btn-item > span::after {
+  content: "\f054";
+  font-weight: bolder;
+  font-family: "font awesome 5 free";
+}
+
+#pricing-card-section .alice-carousel .alice-carousel__prev-btn-item {
+  left: -5px;
+}
+
+#pricing-card-section .alice-carousel .alice-carousel__prev-btn-item > span::after {
+  content: "\f053";
+  font-weight: bolder;
+  font-family: "font awesome 5 free";
+}
+
+#feature-shop .alice-carousel .alice-carousel__stage .alice-carousel__stage-item .pricing-card-item {
+  padding: 20px;
+  padding-top: 70px;
+}
+
+#feature-shop .alice-carousel .alice-carousel__prev-btn-item, #feature-shop .alice-carousel .alice-carousel__next-btn-item {
+  font-size: 20px;
+  padding: 10px;
+  background: white;
+  color: #000000;
+  border: 1px solid #ff98b7;
+  position: absolute;
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.479);
+          box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.479);
+}
+
+#feature-shop .alice-carousel .alice-carousel__next-btn-item {
+  right: -25px;
+}
+
+#feature-shop .alice-carousel .alice-carousel__next-btn-item > span::after {
+  content: "\f054";
+  font-weight: bolder;
+  font-family: "font awesome 5 free";
+}
+
+#feature-shop .alice-carousel .alice-carousel__prev-btn-item {
+  left: -5px;
+}
+
+#feature-shop .alice-carousel .alice-carousel__prev-btn-item > span::after {
+  content: "\f053";
+  font-weight: bolder;
+  font-family: "font awesome 5 free";
+}
+
+#customer-Review .alice-carousel .alice-carousel__stage .alice-carousel__stage-item .pricing-card-item {
+  padding: 20px;
+  padding-top: 70px;
+}
+
+#customer-Review .alice-carousel .alice-carousel__prev-btn-item, #customer-Review .alice-carousel .alice-carousel__next-btn-item {
+  font-size: 20px;
+  padding: 10px;
+  background: white;
+  color: #000000;
+  border: 1px solid #ff98b7;
+  position: absolute;
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.479);
+          box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.479);
+}
+
+#customer-Review .alice-carousel .alice-carousel__next-btn-item {
+  right: -25px;
+}
+
+#customer-Review .alice-carousel .alice-carousel__next-btn-item > span::after {
+  content: "\f054";
+  font-weight: bolder;
+  font-family: "font awesome 5 free";
+}
+
+#customer-Review .alice-carousel .alice-carousel__prev-btn-item {
+  left: -5px;
+}
+
+#customer-Review .alice-carousel .alice-carousel__prev-btn-item > span::after {
+  content: "\f053";
+  font-weight: bolder;
+  font-family: "font awesome 5 free";
+}
+
+.navbar-nav .nav-item .nav-link {
+  padding: 10px 25px;
+  font-weight: 700;
+  color: #7e7e7e;
 }
 /*# sourceMappingURL=Home.css.map */

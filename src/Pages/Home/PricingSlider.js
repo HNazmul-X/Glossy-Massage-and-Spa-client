@@ -12,7 +12,7 @@ const PricingSlider = () => {
 
     return (
         <section id="pricing-card-section" className="container">
-            <Slider items={pricingSlidercontent}></Slider>
+            <Slider  items={pricingSlidercontent}></Slider>
         </section>
     );
 };
