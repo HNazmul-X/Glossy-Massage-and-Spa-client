@@ -7,12 +7,12 @@
 
 
 # Hey, 
-# welcome to my Team monitor project. ***[Visite Website](https://react-router-asnmnt.netlify.app)***.
+# Welcome to my Glossy Massage and Spa Service Provider Website. ***[`Visite Website`](https://glossy-saloon-spa.web.app/)***.
 
 `A small Berif About This Project`
-#### This is a Website of cuple of Sports club details. By this Project I want To showing here React Router expample. I Want to show How react router works. and Also want to show how have my  experiece with react router. 
+#### This is a service providing Website. By this Web site or like this system you can Provide your any specific service. But Here I have shown Massage and Spa service But it is not only for this. It just an exmaple. It Can be any kind of service such as mobile repairing, event managing, any kind of product selling. In a word, It is a Simple e-commarce exapmle website. 
 
-#### Now a days, React router is a best routing component for making route in react app. Almost all website that made based on react router thay have used react router. Beacause there no alternative best sollution with out react router. That why I have used react-router-dom in this project. 
+#### In This Project, I have used React js in Front end, For Backend used node.js and mongodb for database. And firebase used in this project for intregate Authenthication. Now a day's React is a Most Papuler and top lavel Front end library for creative awesome and attractive User interface. That's why I have use here react. here i have showing react authenticatin, react-routing, react-admin-panel , firebase , firebase hosting, firebase auth and many more thing i have implemented on this web site. 
 
 <div align="center">
     ----------
@@ -21,11 +21,14 @@
     <hr/>
  </div>
  
- * ***Using React router Dom***
- * ***Made with React.js Front End Frame work***
- * ***Dynamic url with url paramater***
- * ***Intregated HTTP request. and Fetch api*** 
- * ***InterFace Designed With Fetch meterial UI*** 
+ * ***Using React for User interface***
+ * ***Using firebase Authentication***
+ * ***Using firebase Hosting***
+ * ***Also used Node js for Backend*** 
+ * ***For css frame work using Bootstrap 5*** 
+ * ***Mongo Db for Database*** 
+ * ***IMGBB api for image hosting*** 
+ * ***React Router Dom for implement Routing*** 
 
 
  
@@ -42,7 +45,10 @@
  * ***Most Populer javascript frontend library `React js`***
  * ***Node js***
  * ***Vs Code*** 
- * ***Meterial Ui*** 
+ * ***Bootstrap 5*** 
+ * ***Firebase*** 
+ * ***MongoDb*** 
+ * ***ImgBb*** 
 
 
  
@@ -61,12 +67,11 @@
 
 #
 <div align="center">
-    ----------   
+ 
 
-## `About Me`
+## --- `About Me` ---
 
-    ----------
-    <hr/>
+
  </div>
 
 #
@@ -78,4 +83,4 @@
 
 #### ***I am comfortable working with Html, CSS, Javascript React. Also with. Many libraries of React. For the high-quality design, I use material UIalso Bootstrap and many Front end Frameworks. As well as I am. comfortable with Firebase, Node.js for Backend and use MongoDB. For Database. I have implemented React map, Sass, Redux, and. many other libraries.***
 
-### [Checkout my Portfolio](https://web-hnazmul.web.app/)
+### ***[`Checkout my Portfolio`](https://web-hnazmul.web.app/)***
