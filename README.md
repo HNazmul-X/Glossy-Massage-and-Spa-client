@@ -17,7 +17,7 @@
 <div align="center">
     
     
-## ***----- `Discoverd Feature in this project` -----***
+## ***`Discoverd Feature in this project`***
 ---
 
  </div>
@@ -38,10 +38,9 @@
 <div align="center">
     
     
-## ***----------`Using tools and Technology`----------***
+## ***`Using tools and Technology`***
+---
 
-
-    <hr/>
  </div>
  
  * ***Javascript***
@@ -57,12 +56,20 @@
  
 
 #
+<div align="center">
+    
+    
+### ***`Some Screen Shot of Website`***
+---
 
+ </div>
 
 
 <div align="center">
 <img width="200px"  src="https://i.ibb.co/qmQyQ3j/glossy-massag-home-1.jpg" /> 
 <img width="200px"  src="https://i.ibb.co/tL73Gq9/glossy-massag-home-admin-3.png" /> 
+<img width="200px"  src="https://i.ibb.co/fn6YFng/download-1.png" /> 
+<img width="200px"  src="https://i.ibb.co/ZXG9q2L/glossy-massag-home-admin-2.png" /> 
 </div>
 
 
@@ -79,7 +86,7 @@
 
 #
 <div align="center">
-    <h2>Hi, I am <b>H. Nazmul Hassan </b> </h2>
+    <h2>Hi, I am <b><em>H. Nazmul Hassan</em></b></h2>
     <h5>Professional Full Stack Web developer</h5>
    <hr>
  </div>
